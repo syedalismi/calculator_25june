@@ -1,0 +1,76 @@
+.container {
+max-width: 420px;
+margin:10vh auto 0 auto;
+box-shadow: 8px 8px 13px paleturquoise,       
+}
+
+#display {
+    text-align:right;
+    height:70px;
+    line-height:70px;
+    padding: 16px 8px;
+    font-size:25px;
+}
+.buttons {
+    display:grid;
+    border-bottom:1px solid #fff;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/* .buttons >div {
+    border-top:1px solid rgb(206, 6, 6);
+    border-right:1px solid rgb(40, 60, 241);
+    } */
+
+    .button {
+           border:0.5px solid #999;
+           line-height:100px;
+           text-align: center;
+           font-size:25px;
+           cursor:pointer;    
+    }
+
+    /* #equal {
+        width:120px;
+        border-radius:42px;
+        box-shadow:inset 6px 6px 13px #fff,
+        6px 6px 13px rgba(0,0,0,.16);
+        background-color: chartreuse;
+    }
+     */
+/* input {
+    grid-column:span 4;
+    height:68px;
+    width:258px;
+    box-shadow:inset -6px -6px #fff; 
+    background-color: azure;
+    border: none;
+    border-radius:32px;
+    color:rgb(26,25,25);
+    text-align:end;
+    margin: 40px 0px 30px 0px;
+    padding :20px;
+    font-size:40px; */
+/* } */
+.buttons >div {
+    border-top:1px solid #999;
+    border-right:1px solid #999;
+}
+.button {
+border: 0.5px solid #999;
+line-height:100px;
+text-align: center;;
+font-size:25px;
+cursor:pointer;
+}
+#equal {
+    background-color:burlywood;
+    color:white;
+}
+.button:hover {
+    background-color: bisque;
+    color:white;
+    transition:0.5s ease-in-out;
+}
+
+
